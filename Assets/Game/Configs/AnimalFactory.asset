@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e459d9d903d0414789f90d78e6191c17, type: 3}
+  m_Name: AnimalFactory
+  m_EditorClassIdentifier: 
+  _settings:
+    <PushForce>k__BackingField: 7
+    <LabelShowDurationInSeconds>k__BackingField: 1
+  _preysData:
+  - <Template>k__BackingField: {fileID: 20271456568027607, guid: 5a70b6bf3b8a54f4e8005bdc17b029b3, type: 3}
+    <MovementFactory>k__BackingField: {fileID: 11400000, guid: 3c323b01d2d61b44bb45792872effbe1, type: 2}
+  _predatorsData:
+  - <Template>k__BackingField: {fileID: 844836547222544322, guid: c6c47a6210b32d840abd33dd040fdc28, type: 3}
+    <MovementFactory>k__BackingField: {fileID: 11400000, guid: 69bec821ddad0ba45a9ecd07af492afb, type: 2}
